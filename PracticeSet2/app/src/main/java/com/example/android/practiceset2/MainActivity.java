@@ -11,9 +11,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         // PASTE CODE YOU WANT TO TEST HERE
-        display1("This is Box 1.");
-        display2("And this is Box 2.");
-        display3("And look! Box 3!");
+        int ruppes=60;
+                int raspberryPrice=5;
+        display("1 box:$"+raspberryPrice*ruppes);
+        display2("2 box:$"+(raspberryPrice * 2*ruppes));
+        display3("3 box:$"+(raspberryPrice * 3*ruppes));
+        //int price=20;
         //int price=20;
        // display3("this is new price"+price);
 
